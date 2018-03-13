@@ -35,7 +35,7 @@ var reloadImage = function () {
     $('.progress-bar').css('width', '0%').attr('aria-valuenow', 0);
     setTimeout(function(){
         doTheProgress(100, showText);
-    }, 1000);
+    }, 800);
 };
 
 var showText = function () {
@@ -57,6 +57,9 @@ $(function () {
         imageName = IMAGE_NAME_BAD_AFTER;
         imageSelector = '#sgFound';
         textSelector = 'h2.text-danger';
-        doTheProgress(300, reloadImage);
+        $('.progress-bar').css('width', 0 + '%').attr('aria-valuenow', 0);
+        setTimeout(function(){
+            doTheProgress(300, reloadImage);
+        }, 800);
     });
 });
