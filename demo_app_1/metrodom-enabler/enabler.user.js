@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Metrodom enabler
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Enable price and flat plan check for all appartments
 // @author       lordmairtis
 // @require      https://code.jquery.com/jquery-3.6.0.min.js
